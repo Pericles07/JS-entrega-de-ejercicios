@@ -1,0 +1,37 @@
+body{
+    transition: background-color 0.3s ease;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1E85C6;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    padding: 8px 16px;
+}
+
+div{
+    display: flex;
+    justify-content: center; 
+}
+
+button{
+    margin-top: 300px;
+    padding: 8px 16px;
+    font-size: 32px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    color: #F7D204;
+    background-color: #000000;
+}
+
+button:hover{
+    color: #000000;
+    background-color: #F7D204;
+    transition: 0.5s ease;
+}

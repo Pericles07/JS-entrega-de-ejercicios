@@ -1,0 +1,95 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 50px;
+    background-color: #081F3D;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1E85C6;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    padding: 8px 16px;
+}
+
+h1{
+    margin-top: 100px;
+    text-align: center;
+    color: #E3E7EC;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #42a7e6;
+    border-radius: 5px;
+    padding: 16px;
+    min-width: 600px;
+    justify-self: center;
+}
+
+.input-group{ 
+    display: flex; 
+    gap: 10px; 
+    margin-bottom: 20px; 
+}
+        
+input[type="text"]{ 
+    flex: 1; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+        
+button { 
+    cursor: pointer; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 8px 12px; 
+}
+        
+#btnAgregar{ 
+    background: #27ae60; 
+    color: white; 
+}
+
+#btnAgregar:hover {
+    background: #107239;
+    transition-duration: 0.5s;
+}
+        
+#btnLimpiar{ 
+    background: #e74c3c; 
+    color: white; 
+    margin-top: 15px; 
+}
+
+#btnLimpiar:hover {
+    background: #c0392b;
+    transition-duration: 0.5s;
+}
+        
+ul{ 
+    list-style: none; 
+    padding: 0; 
+}
+        
+li{ 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    padding: 8px 0; 
+    color: #081F3D;
+    border-bottom: 1px solid #FFFFFF; 
+}
+        
+.completada{ 
+    text-decoration: line-through; 
+    color: #c4c3c3; 
+}
