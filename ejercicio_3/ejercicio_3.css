@@ -23,8 +23,8 @@ h1{
 
 .tareas{
     padding: 40px;
-    min-height: 600px;
-    min-width: 600px;
+    min-height: 400px;
+    min-width: 400px;
     border-radius: 20px;
     background-color: white;
     display: flex;
@@ -59,4 +59,13 @@ button{
     border-radius: 6px;
     color: #FFFFFF;
     background-color:#FF0000;
+}
+
+@media (max-width: 1024px) {
+    .tareas{
+        padding: 20px;
+        min-height: 200px;
+        min-width: 300px;
+    }
+
 }
